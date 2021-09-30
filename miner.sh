@@ -85,14 +85,14 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>verus-auto-armbian/README.md at main · iwanmartinsetiawan/verus-auto-armbian</title>
+  <title>verus-auto-armbian/miner.sh at main · iwanmartinsetiawan/verus-auto-armbian</title>
     <meta name="description" content="Script Autorun miner verush coin in Armbian. Contribute to iwanmartinsetiawan/verus-auto-armbian development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
   <meta name="apple-itunes-app" content="app-id=1477376905" />
-    <meta name="twitter:image:src" content="https://opengraph.githubassets.com/50413138ea41f73c3b57da7b973aed8dd2eef3cb7f8053b06372b20aac3410bc/iwanmartinsetiawan/verus-auto-armbian" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="verus-auto-armbian/README.md at main · iwanmartinsetiawan/verus-auto-armbian" /><meta name="twitter:description" content="Script Autorun miner verush coin in Armbian. Contribute to iwanmartinsetiawan/verus-auto-armbian development by creating an account on GitHub." />
-    <meta property="og:image" content="https://opengraph.githubassets.com/50413138ea41f73c3b57da7b973aed8dd2eef3cb7f8053b06372b20aac3410bc/iwanmartinsetiawan/verus-auto-armbian" /><meta property="og:image:alt" content="Script Autorun miner verush coin in Armbian. Contribute to iwanmartinsetiawan/verus-auto-armbian development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="verus-auto-armbian/README.md at main · iwanmartinsetiawan/verus-auto-armbian" /><meta property="og:url" content="https://github.com/iwanmartinsetiawan/verus-auto-armbian" /><meta property="og:description" content="Script Autorun miner verush coin in Armbian. Contribute to iwanmartinsetiawan/verus-auto-armbian development by creating an account on GitHub." />
+    <meta name="twitter:image:src" content="https://opengraph.githubassets.com/50413138ea41f73c3b57da7b973aed8dd2eef3cb7f8053b06372b20aac3410bc/iwanmartinsetiawan/verus-auto-armbian" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="verus-auto-armbian/miner.sh at main · iwanmartinsetiawan/verus-auto-armbian" /><meta name="twitter:description" content="Script Autorun miner verush coin in Armbian. Contribute to iwanmartinsetiawan/verus-auto-armbian development by creating an account on GitHub." />
+    <meta property="og:image" content="https://opengraph.githubassets.com/50413138ea41f73c3b57da7b973aed8dd2eef3cb7f8053b06372b20aac3410bc/iwanmartinsetiawan/verus-auto-armbian" /><meta property="og:image:alt" content="Script Autorun miner verush coin in Armbian. Contribute to iwanmartinsetiawan/verus-auto-armbian development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="verus-auto-armbian/miner.sh at main · iwanmartinsetiawan/verus-auto-armbian" /><meta property="og:url" content="https://github.com/iwanmartinsetiawan/verus-auto-armbian" /><meta property="og:description" content="Script Autorun miner verush coin in Armbian. Contribute to iwanmartinsetiawan/verus-auto-armbian development by creating an account on GitHub." />
     
 
 
@@ -100,11 +100,11 @@
     
 
   <link rel="assets" href="https://github.githubassets.com/">
-    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/88080714/ws?session=eyJ2IjoiVjMiLCJ1Ijo4ODA4MDcxNCwicyI6NzYwOTY2NDM0LCJjIjo0MDAyNjMwOTU1LCJ0IjoxNjMyOTgxMzk5fQ==--db521a42b5f1f452172750ce8ba04fb222672c7696187b06ba0c1a14f1cc012e" data-refresh-url="/_alive" data-session-id="d34877148d4e3d2ed4d67f77115961aedf0e7bf8db1bc9fe170566084c615a7b">
+    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/88080714/ws?session=eyJ2IjoiVjMiLCJ1Ijo4ODA4MDcxNCwicyI6NzYwOTY2NDM0LCJjIjoyNTkyMTkwNTEsInQiOjE2MzI5ODE0MDV9--77aa4126975313505185cf42672f404f957a33d20e44c4395f6dc9c247df026d" data-refresh-url="/_alive" data-session-id="d34877148d4e3d2ed4d67f77115961aedf0e7bf8db1bc9fe170566084c615a7b">
     <link rel="shared-web-socket-src" href="/socket-worker-0af8a29d.js">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="FFA8:6435:141825:1B2304:61555197" data-pjax-transient="true" /><meta name="html-safe-nonce" content="41819130ee26f075d51ce022efb9f30e988e1c695562839025c7ea43112b8d6c" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9pd2FubWFydGluc2V0aWF3YW4vdmVydXMtYXV0by1hcm1iaWFuL2ZpbmQvbWFpbiIsInJlcXVlc3RfaWQiOiJGRkE4OjY0MzU6MTQxODI1OjFCMjMwNDo2MTU1NTE5NyIsInZpc2l0b3JfaWQiOiI2NjIyOTU1NjMwNjY5NjEwMzU3IiwicmVnaW9uX2VkZ2UiOiJzb3V0aGVhc3Rhc2lhIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="26f47a9c440283cbef1c66f173198301d6aa0f33163d865f5d766b13941a7fd4" data-pjax-transient="true" />
+  <meta name="request-id" content="FFAA:0C5B:14D26F:1BE136:6155519D" data-pjax-transient="true" /><meta name="html-safe-nonce" content="41819130ee26f075d51ce022efb9f30e988e1c695562839025c7ea43112b8d6c" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9pd2FubWFydGluc2V0aWF3YW4vdmVydXMtYXV0by1hcm1iaWFuL2ZpbmQvbWFpbiIsInJlcXVlc3RfaWQiOiJGRkFBOjBDNUI6MTREMjZGOjFCRTEzNjo2MTU1NTE5RCIsInZpc2l0b3JfaWQiOiI2NjIyOTU1NjMwNjY5NjEwMzU3IiwicmVnaW9uX2VkZ2UiOiJzb3V0aGVhc3Rhc2lhIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="483fce3dad2a51652ba6c0ac1df8dee400ad726d72d0e7b927a58fe3ba7799c8" data-pjax-transient="true" />
 
     <meta name="hovercard-subject-tag" content="repository:376392739" data-pjax-transient>
 
@@ -143,7 +143,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="MzM1OGZmYjQ1M2YzOTBkMmJiY2U3MmZiOWRhYjhiNzExM2Q1NDEzYTMyYTQwMTA2YzA4YWI3OGM1OTI5YzJjYnx7InJlbW90ZV9hZGRyZXNzIjoiMTgwLjI1NC43MC4xMjciLCJyZXF1ZXN0X2lkIjoiRkZBODo2NDM1OjE0MTgyNToxQjIzMDQ6NjE1NTUxOTciLCJ0aW1lc3RhbXAiOjE2MzI5ODEzOTksImhvc3QiOiJnaXRodWIuY29tIn0=">
+      <meta name="js-proxy-site-detection-payload" content="NTkwYTk4NTdkNjJiOTNhYTg5N2U5MjA2YmE4NTY4ODIyZWYyMmVmZDQ4NDA5MDI1NzNhNjlkNTIyNDAyMjY5Ynx7InJlbW90ZV9hZGRyZXNzIjoiMTgwLjI1NC43MC4xMjciLCJyZXF1ZXN0X2lkIjoiRkZBQTowQzVCOjE0RDI2RjoxQkUxMzY6NjE1NTUxOUQiLCJ0aW1lc3RhbXAiOjE2MzI5ODE0MDUsImhvc3QiOiJnaXRodWIuY29tIn0=">
       <meta name="keyboard-shortcuts-preference" content="all">
 
     <meta name="enabled-features" content="BRANCH_PROTECTION_RULE_WEBHOOK,MARKETPLACE_PENDING_INSTALLATIONS,FILE_UPLOAD_CURSOR_POSITION">
@@ -161,7 +161,7 @@
 
 
 
-    <link rel="canonical" href="https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -201,7 +201,7 @@
   href="https://github.com/"
   data-hotkey="g d"
   aria-label="Homepage "
-  data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="93da6af46c6a8140bbf314380197bf790690082ab8917be97ad3af6aa2df79b3"
+  data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="c4d5d27ddfbd9a4cb8d4388b345fe3be63ec03c3eaf557b1d4a48dd049ae4cdc"
 >
   <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
     <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
@@ -251,7 +251,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" value="TdC6r/AKeIpqPhZMKuqBDv+NePq1VYgHndPTlScj32aVC/VOB0nupp+9l5ghrBoRVc0ng/4UugEm+PjJ4PWCJA==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+        <input type="hidden" value="VmgO2wq36+J7MBMBmJWBaHZ92Wf5zf9RMoI920+/SZ6Os0E6/fR9zo6zktWT0xp33D2GHrKMzVeJqRaHiGkU3A==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -455,7 +455,7 @@
     <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:workspaces context:user" data-selected-links="/codespaces /codespaces" href="/codespaces">
       Codespaces
 </a>
-      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;mregha&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="741e2b562b72b82f96cabc53da44428a307e355b4069b717a7904ac0ccc24c22" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
+      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;mregha&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="9a8e368bd5022d5461eb43d9f9e2ac4c3a6a5ba5c558d1b363ed5d88389d7c38" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
 
     <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade" href="/settings/profile">
       Settings
@@ -464,12 +464,12 @@
       <img class="avatar avatar-user" loading="lazy" decoding="async" src="https://avatars.githubusercontent.com/u/88080714?s=40&amp;v=4" width="20" height="20" alt="@mregha" />
       mregha
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="vPSZesnUmNieDIoa6VhvU5EvWjayqUeKhjgbwe7To4F4rXAqoBg5z1RD9t3qINYO5ykZjrd2abK7z61u/rIb1g==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Yfkh26bc4YGDT6KpV/Z8xazpLYlAGj3CqoyVaXklJ56loMiLzxBAlkkA3m5UjsWY2u9uMUXFE/qXeyPGaUSfyQ==" />
       <button
         type="submit"
         class="Header-link mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade d-md-none btn-link d-block width-full text-left"
         style="padding-left: 2px;"
-        data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;sign out&quot;,&quot;label&quot;:&quot;icon:logout&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="4f6230288785951cdda3099f2f2043b9f74e941cdd6af4b1742f406547a46d46"
+        data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;sign out&quot;,&quot;label&quot;:&quot;icon:logout&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="895b4b7674c9a1cecca653645e397d286281cf6fc36af00d7f34e16efa5711f2"
       >
         <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sign-out v-align-middle">
     <path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"></path>
@@ -486,7 +486,7 @@
   href="https://github.com/"
   data-hotkey="g d"
   aria-label="Homepage "
-  data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="93da6af46c6a8140bbf314380197bf790690082ab8917be97ad3af6aa2df79b3"
+  data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="c4d5d27ddfbd9a4cb8d4388b345fe3be63ec03c3eaf557b1d4a48dd049ae4cdc"
 >
   <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
     <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
@@ -502,7 +502,7 @@
       <notification-indicator
         class="js-socket-channel"
         data-test-selector="notifications-indicator"
-        data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6ODgwODA3MTQiLCJ0IjoxNjMyOTgxMzk5fQ==--558e1245368fcda56cf180a9ac2fc9b937da7535c9c6228a9f3fda0bd3c744d4">
+        data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6ODgwODA3MTQiLCJ0IjoxNjMyOTgxNDA1fQ==--43b3e9332f96cbcab3315870ea2584703186d91724600839ad172159ec68080b">
         <a href="/notifications"
           class="Header-link notification-indicator position-relative tooltipped tooltipped-sw"
           
@@ -525,7 +525,7 @@
   <summary
     class="Header-link"
     aria-label="Create new…"
-    data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;create new&quot;,&quot;label&quot;:&quot;icon:add&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="cb3fd4e27965767bddc5a58d28c7d3229ca3c06320a86eb872f90a9aeb88b5bd"
+    data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;create new&quot;,&quot;label&quot;:&quot;icon:add&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="11c1eeb48b4d442180d5033daa877ce9a575144976fdf3a0490ddf783cf87863"
   >
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
     <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
@@ -563,7 +563,7 @@
   <summary
     class="Header-link"
     aria-label="View profile and more"
-    data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;show menu&quot;,&quot;label&quot;:&quot;icon:avatar&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="78c5ee4722d52803c6c8179c290592cb996fbbfe5192d538dcb1beab3bb746e1"
+    data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;show menu&quot;,&quot;label&quot;:&quot;icon:avatar&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="1433c95891162e312fcaa59d390e51e8453522952f3ee61979b2ea05b6cd017d"
   >
     <img src="https://avatars.githubusercontent.com/u/88080714?s=40&amp;v=4" alt="@mregha" size="20" height="20" width="20" data-view-component="true" class="avatar-user avatar avatar-small"></img>
       <span class="feature-preview-indicator js-feature-preview-indicator" style="top: 1px;" hidden></span>
@@ -679,7 +679,7 @@
         data-action="toggle:notifications-list-subscription-form#detailsToggled"
       >
 
-      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:376392739,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="eb6586f5c947a1bc3a6d9f6625f36db790491915a098c20008c74b031b0fb8aa" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notifications settings">
+      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:376392739,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="25c55d5619cd4b37c4284295306bbcb5086bc8e7192ab9b34259a4328eb1bd5e" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notifications settings">
           <span data-menu-button>
             <span
               hidden
@@ -731,7 +731,7 @@
             </header>
 
             <div class="SelectMenu-list">
-              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="BQOqHh4b+VL+EyofmVUR44YYzf1CcMrCHReDgwb2QAJlPY7tXQD/4Ll+EOgJIw6tR91lRLliffrV6cGP9I5IeA==" />
+              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Q7FfcIlXzgd8zezhf+U1rfXTRAjvep9LCMXGDxOUOkwjj3uDykzItTug1hbvkyrjNBbssRRoKHPAO4QD4ewyNg==" />
 
                 <input type="hidden" name="repository_id" value="376392739">
 
@@ -854,7 +854,7 @@
 
         <details-dialog class="notifications-component-dialog " data-target="notifications-list-subscription-form.customDialog" hidden>
           <div class="SelectMenu-modal notifications-component-dialog-modal overflow-visible">
-            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="qsSwDLepFHkFtiH9sEnjH1CZA5XYswQRhtQo/Ye2aHXK+pT/9LISy0LbGwogP/xRkVyrLCOhsylOKmrxdc5gDw==" />
+            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="WeGgq/KMazBogGCGirJASmGP2uz57a9+234QiA1DDOg534RYsZdtgi/tWnEaxF8EoEpyVQL/GEYTgFKE/zsEkg==" />
 
               <input type="hidden" name="repository_id" value="376392739">
 
@@ -1013,9 +1013,9 @@
 
   <li>
         <div class="d-block js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/iwanmartinsetiawan/verus-auto-armbian/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="FHJ/seWinAR33FBLeFDui+0ECfnYdZ5+0h28Xsr8k0cM5RmEW3iAo9m7EMuWxztSr3u1KHSu1iYVy8UXBcLqyA==" />
+    <form class="starred js-social-form" action="/iwanmartinsetiawan/verus-auto-armbian/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="x2JXHhL7wb78fFgypdDVy9+si24KEtsiXToX2lObEm/f9TErrCHdGVIbGLJLRwASndM3v6bJk3qa7G6TnKVr4A==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar iwanmartinsetiawan/verus-auto-armbian" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:376392739,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="2a3f86922c4e15073d82189a1b8c364449c77c8979cc4fef44ae8104c88dd2de" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill mr-1">
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar iwanmartinsetiawan/verus-auto-armbian" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:376392739,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="a25658f8c90208a3246ccbdc07ee4ca84928ab0aed29a8d6212afe81549a605f" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill mr-1">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path>
 </svg>
         <span data-view-component="true">
@@ -1025,9 +1025,9 @@
            3
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/iwanmartinsetiawan/verus-auto-armbian/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="oA85Tt48OzPpT9pptqql91VG1egTymhxV7+urgfTWPA5rAKg8rHlWXxy31Np0pvg64/cBmbZyapXTFa4H7GU6A==" />
+    <form class="unstarred js-social-form" action="/iwanmartinsetiawan/verus-auto-armbian/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="R787dQul10kRt+DmjafmVqpNLfcMQbFOQDvG4C+FIWDeHACbJygJI4SK5dxS39hBFIQkGXlSEJVAyD72N+fteA==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Star this repository" title="Star iwanmartinsetiawan/verus-auto-armbian" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:376392739,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="a3c7a56b50ec543b8874c6d8987f41e1a962f48776a42a183bf65c9334e8a8e0" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star mr-1">
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Star this repository" title="Star iwanmartinsetiawan/verus-auto-armbian" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:376392739,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="d6057c881a18238bc8b864975effdac482dc28e75dac6f07ade6b358d81636f7" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star mr-1">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
 </svg>
         <span data-view-component="true">
@@ -1041,8 +1041,8 @@
   </li>
 
   <li>
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/iwanmartinsetiawan/verus-auto-armbian/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="QxjgqXI7dSZBC27GRYS5rBvgxujWOuSp1xTOklk6DzV8FyGkZeukZvYldOnxK8Ws/idABXfDXXCGI7Ty+Jt4ig==" />
-              <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:376392739,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="fd041b0b4fd705b4f5bde228f81407084c645766ebe5658a03aabb5dafe282e0" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of iwanmartinsetiawan/verus-auto-armbian to your account" aria-label="Fork your own copy of iwanmartinsetiawan/verus-auto-armbian to your account">                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked">
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/iwanmartinsetiawan/verus-auto-armbian/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="/XOK+gxu09CBqVxSHUZiUsUahNxUYO8NNpQJOSaOpHnCfEv3G74CkDaHRn2p6R5SIN0CMfWZVtRno3NZhy/Txg==" />
+              <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:376392739,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="6d24d95ab25439919de2dbf6da90a9f1cfe1a3393d0b83d4dbdfcd7f6a2cf421" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of iwanmartinsetiawan/verus-auto-armbian to your account" aria-label="Fork your own copy of iwanmartinsetiawan/verus-auto-armbian to your account">                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked">
     <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
 </svg>
                 Fork
@@ -1220,9 +1220,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/iwanmartinsetiawan/verus-auto-armbian/blob/93477dd48f5bb15136c9fa827919318e6cfb5127/README.md">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/iwanmartinsetiawan/verus-auto-armbian/blob/93477dd48f5bb15136c9fa827919318e6cfb5127/miner.sh">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:c73bf6ec8740d0b7b72a549b55b42a1403405782aca131a8ed13a6de7050da56 -->
+    <!-- blob contrib key: blob_contributors:v22:d0edd3fda8bb1e0a39ac2541f233bcbd27e9d9be7e204a652b8ae346f7251363 -->
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
       
@@ -1307,7 +1307,7 @@
             </div>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/{{ urlEncodedRefName }}/README.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/{{ urlEncodedRefName }}/miner.sh" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -1347,7 +1347,7 @@
             </template>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/{{ urlEncodedRefName }}/README.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/{{ urlEncodedRefName }}/miner.sh" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -1378,7 +1378,7 @@
 </div>
 
       <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/iwanmartinsetiawan/verus-auto-armbian"><span>verus-auto-armbian</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/iwanmartinsetiawan/verus-auto-armbian"><span>verus-auto-armbian</span></a></span></span><span class="separator">/</span><strong class="final-path">miner.sh</strong>
       </h2>
       <a href="/iwanmartinsetiawan/verus-auto-armbian/find/main"
             class="js-pjax-capture-input btn mr-2 d-none d-md-block"
@@ -1399,7 +1399,7 @@
 </summary>
   <div data-view-component="true">          <ul class="dropdown-menu dropdown-menu-sw">
             <li class="d-block d-md-none">
-              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:376392739,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="04eea32cfd2dc95befc2fab56d4301f3304f60a5dd156bdc7212ce5c4b41b4d8" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/iwanmartinsetiawan/verus-auto-armbian/find/main">
+              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:376392739,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="1a2b4aaf6a2740bdba8e9be9a49fea3bd72edc4bf9a72d4e4ac149c5598cf671" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/iwanmartinsetiawan/verus-auto-armbian/find/main">
                 <span class="flex-auto">Go to file</span>
                 <span class="text-small color-text-secondary" aria-hidden="true">T</span>
 </a>            </li>
@@ -1417,13 +1417,13 @@
 </button>            </li>
             <li class="dropdown-divider" role="none"></li>
             <li>
-              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="README.md" data-view-component="true" class="dropdown-item cursor-pointer">
+              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="miner.sh" data-view-component="true" class="dropdown-item cursor-pointer">
     
                 Copy path
 
 </clipboard-copy>            </li>
             <li>
-              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/93477dd48f5bb15136c9fa827919318e6cfb5127/README.md" data-view-component="true" class="dropdown-item cursor-pointer">
+              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/93477dd48f5bb15136c9fa827919318e6cfb5127/miner.sh" data-view-component="true" class="dropdown-item cursor-pointer">
     
                 <span class="d-flex flex-items-baseline">
                   <span class="flex-auto">Copy permalink</span>
@@ -1438,7 +1438,7 @@
 
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-      <include-fragment src="/iwanmartinsetiawan/verus-auto-armbian/contributors/main/README.md" class="commit-loader">
+      <include-fragment src="/iwanmartinsetiawan/verus-auto-armbian/contributors/main/miner.sh" class="commit-loader">
         <div class="Box-header d-flex flex-items-center">
           <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
           <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
@@ -1473,38 +1473,22 @@
 
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1">
 
-      25 lines (24 sloc)
+      1 lines (1 sloc)
       <span class="file-info-divider"></span>
-    758 Bytes
+    100 Bytes
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
-        <div class="BtnGroup">
-    <a href="/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md?plain=1" aria-label="Display the source blob" role="button" data-view-component="true" class="source tooltipped tooltipped tooltipped-n  btn-sm btn BtnGroup-item">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
-    <path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path>
-</svg>
-  
-  
-
-</a>    <a href="/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md" aria-label="Display the rendered blob" role="button" data-view-component="true" class="rendered tooltipped tooltipped tooltipped-n selected btn-sm btn BtnGroup-item">
-  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file">
-    <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path>
-</svg>
-  
-  
-
-</a>  </div>
-
+      
 
     <div class="BtnGroup">
-      <a href="/iwanmartinsetiawan/verus-auto-armbian/raw/main/README.md" id="raw-url" role="button" data-view-component="true" class="btn-sm btn BtnGroup-item">
+      <a href="/iwanmartinsetiawan/verus-auto-armbian/raw/main/miner.sh" id="raw-url" role="button" data-view-component="true" class="btn-sm btn BtnGroup-item">
   
   Raw
   
 
 </a>
-        <a href="/iwanmartinsetiawan/verus-auto-armbian/blame/main/README.md" data-hotkey="b" role="button" data-view-component="true" class="js-update-url-with-hash btn-sm btn BtnGroup-item">
+        <a href="/iwanmartinsetiawan/verus-auto-armbian/blame/main/miner.sh" data-hotkey="b" role="button" data-view-component="true" class="js-update-url-with-hash btn-sm btn BtnGroup-item">
   
   Blame
   
@@ -1523,11 +1507,11 @@
 </svg>
           </a>
 
-          <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/iwanmartinsetiawan/verus-auto-armbian/raw/main/README.md" data-action="click:remote-clipboard-copy#remoteCopy">
+          <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/iwanmartinsetiawan/verus-auto-armbian/raw/main/miner.sh" data-action="click:remote-clipboard-copy#remoteCopy">
   
 
 
-  <span data-target="remote-clipboard-copy.idle">              <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:376392739,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="1ac4327f7f4a4fb1a72cf48d1219f30f30770620aa2232d444a5476d648d5953" aria-label="Copy raw contents">
+  <span data-target="remote-clipboard-copy.idle">              <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:376392739,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="99c4d0fe4d1799e2b2394a7dbf86e26334cd19ab1ffe1d6ec8383b72bb386567" aria-label="Copy raw contents">
                 <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy">
     <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
 </svg>
@@ -1550,7 +1534,7 @@
               </span>
 </span>
 </remote-clipboard-copy>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/iwanmartinsetiawan/verus-auto-armbian/edit/main/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="m8su1XOxVkVokBkjVX6vukh6tzbthr0Ql07Zc8WjPXACKRh7UAImsolzv5v3EnBMX0X3Kg6Z3rX61EbTEKME+A==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/iwanmartinsetiawan/verus-auto-armbian/edit/main/miner.sh" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="okHcQ7WlBeaLxTpcl7x4eustIbkLve7wGeuxcYefh9Vpi4Jk1k7/93yE02C/Hy4FN//6bxahMB+0cwMd00pVmQ==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
@@ -1558,7 +1542,7 @@
 </svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/iwanmartinsetiawan/verus-auto-armbian/delete/main/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="jpgW5r7IhnJhvxP3Nymr70xuGKbkBjiapJ0BiCM27ulBGHitD8x3WpjtCbA2sUaNTVVBKJuk7TxQZnhEZNWn2g==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/iwanmartinsetiawan/verus-auto-armbian/delete/main/miner.sh" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="2CDfeesfTzAZLOYqaA8wEZ0bWY9i7Xk7SmrDOF1G4O8FVczrDQ+YIiCJ+TnERWa6VVNdxX4LPhp+aY0cRzmW0w==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
@@ -1586,15 +1570,15 @@
                 </a>
             </li>
           <li>
-            <a class="dropdown-item" href="/iwanmartinsetiawan/verus-auto-armbian/raw/main/README.md">
+            <a class="dropdown-item" href="/iwanmartinsetiawan/verus-auto-armbian/raw/main/miner.sh">
               View raw
             </a>
           </li>
               <li>
-                <remote-clipboard-copy class="dropdown-item" data-src="/iwanmartinsetiawan/verus-auto-armbian/raw/main/README.md" data-action="click:remote-clipboard-copy#remoteCopy">
+                <remote-clipboard-copy class="dropdown-item" data-src="/iwanmartinsetiawan/verus-auto-armbian/raw/main/miner.sh" data-action="click:remote-clipboard-copy#remoteCopy">
   
 
-  <span data-target="remote-clipboard-copy.idle">                    <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:376392739,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="1ac4327f7f4a4fb1a72cf48d1219f30f30770620aa2232d444a5476d648d5953">
+  <span data-target="remote-clipboard-copy.idle">                    <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:376392739,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="99c4d0fe4d1799e2b2394a7dbf86e26334cd19ab1ffe1d6ec8383b72bb386567">
                       Copy raw contents
 </span></span>
   <span data-target="remote-clipboard-copy.fetching" hidden="hidden">                    Copy raw contents
@@ -1617,17 +1601,17 @@
 </span>
 </remote-clipboard-copy>              </li>
             <li>
-              <a class="dropdown-item" href="/iwanmartinsetiawan/verus-auto-armbian/blame/main/README.md">
+              <a class="dropdown-item" href="/iwanmartinsetiawan/verus-auto-armbian/blame/main/miner.sh">
                 View blame
               </a>
             </li>
 
               <li class="dropdown-divider" role="none"></li>
               <li>
-                <a class="dropdown-item" href="/iwanmartinsetiawan/verus-auto-armbian/edit/main/README.md">Edit file</a>
+                <a class="dropdown-item" href="/iwanmartinsetiawan/verus-auto-armbian/edit/main/miner.sh">Edit file</a>
               </li>
               <li>
-                <a class="dropdown-item menu-item-danger" href="/iwanmartinsetiawan/verus-auto-armbian/delete/main/README.md">Delete file</a>
+                <a class="dropdown-item menu-item-danger" href="/iwanmartinsetiawan/verus-auto-armbian/delete/main/miner.sh">Delete file</a>
               </li>
         </ul>
       </details>
@@ -1635,44 +1619,44 @@
 </div>
 
 
-        <div id="readme"  class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><h1><a id="user-content-verus-auto-armbian" class="anchor" aria-hidden="true" href="#verus-auto-armbian"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>verus-auto-armbian</h1>
-<p>Script Autorun miner verush coin in Armbian</p>
-<p>How to install</p>
-<ol>
-<li>Buka terminal armbiannya.</li>
-<li>Masukkan perintah dibawah</li>
-</ol>
-<div class="snippet-clipboard-content position-relative overflow-auto" data-snippet-clipboard-copy-content="wget -L https://raw.githubusercontent.com/iwanmartinsetiawan/verus-auto-armbian/main/miner.sh
-"><pre><code>wget -L https://raw.githubusercontent.com/iwanmartinsetiawan/verus-auto-armbian/main/miner.sh
-</code></pre></div>
-<ol start="4">
-<li>edit file miner.sh yang telah didownload sebelumnya.</li>
-</ol>
-<div class="snippet-clipboard-content position-relative overflow-auto" data-snippet-clipboard-copy-content="nano miner.sh
-"><pre><code>nano miner.sh
-</code></pre></div>
-<ul>
-<li>wallet = ganti dengan wallet address verus kalian</li>
-<li>workername = nama worker yang akan digunakan. Contoh : node-01</li>
-</ul>
-<ol start="5">
-<li>Save and quit. Dengan cara tekan tombol CTRL+X, tekan tombol Y dan enter.</li>
-<li>ketik command dibawah di terminal, untuk edit crontab</li>
-</ol>
-<div class="snippet-clipboard-content position-relative overflow-auto" data-snippet-clipboard-copy-content="crontab -e
-"><pre><code>crontab -e
-</code></pre></div>
-<ol start="7">
-<li>Tambahkan script dibawah</li>
-</ol>
-<div class="snippet-clipboard-content position-relative overflow-auto" data-snippet-clipboard-copy-content="@reboot bash /root/miner.sh &gt; /root/miner.log 2&gt;&amp;1
-"><pre><code>@reboot bash /root/miner.sh &gt; /root/miner.log 2&gt;&amp;1
-</code></pre></div>
-<ol start="8">
-<li>Save dan quit. Dengan cara tekan tombol CTRL+X, tekan tombol Y dan enter.</li>
-</ol>
-</article>
+      
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-shell  gist-border-0">
+
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">/root/ccminer/ccminer -a verus -o stratum+tcp://ap.luckpool.net:3956 -u wallet.workername -p x -t 4</td>
+      </tr>
+</table>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 color-bg-primary border color-border-tertiary rounded-1" aria-label="Inline file action toolbar">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
+    <path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+</svg>
+    </summary>
+    <details-menu>
+
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se ml-2 mt-2"
+      style="width:185px"
+      >
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" aria-label="Copy lines">
+            Copy lines
+          </clipboard-copy>
+        </li>
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" aria-label="Copy permalink">
+            Copy permalink
+          </clipboard-copy>
+        </li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/iwanmartinsetiawan/verus-auto-armbian/blame/93477dd48f5bb15136c9fa827919318e6cfb5127/miner.sh">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/iwanmartinsetiawan/verus-auto-armbian/issues/new">Reference in new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
+
   </div>
 
     </div>
@@ -1714,10 +1698,10 @@
   <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 color-text-secondary border-top color-border-secondary ">
     <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
       <li class="mr-3 mr-lg-0">&copy; 2021 GitHub, Inc.</li>
-        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-terms-of-service" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="fd1732315e2e70f1a3d2fb084fdbf1e6f6fc1bd21e9f95a9983d42d49bd55cd8">Terms</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-privacy-statement" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="749699d15921f66a942dcf509b54d616de0a0629d1071cc8241d06d2b10859e7">Privacy</a></li>
-        <li class="mr-3 mr-lg-0"><a data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="ca9e6f1cb07937c61c3a0e02a215bdb4846329236b997d7e8696e4933bef17a7" href="https://github.com/security">Security</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://www.githubstatus.com/" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="22044db22256c62934ad48a8706798249eca3c5f203f0b2d011b48fc68ab6ae1">Status</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-terms-of-service" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="ffbbf99d37ba84c2219853281789048e4d2210932c4f3ca9d6bb1e719a9252ee">Terms</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-privacy-statement" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="46501bd47b59b7e45bb177cb772dfb0e352ae17ea5694dd0f8e5cdedcb267dab">Privacy</a></li>
+        <li class="mr-3 mr-lg-0"><a data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="760598b491e972d22c6f8f08c884e83e271eeb3954dcfff342a53cf4be90d350" href="https://github.com/security">Security</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://www.githubstatus.com/" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="84b625a57f170dc0acf5c3d55ffda863e39ada02969c222c51f6006f9b6c8612">Status</a></li>
         <li><a data-ga-click="Footer, go to help, text:Docs" href="https://docs.github.com">Docs</a></li>
     </ul>
 
@@ -1727,11 +1711,11 @@
 </svg>
 </a>
     <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-        <li class="mr-3 mr-lg-0"><a href="https://support.github.com?tags=dotcom-footer" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="816181490899bcade5d7e709587dd1e9b3b4903361308198d48148059c0d8fa4">Contact GitHub</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Pricing&quot;,&quot;label&quot;:&quot;text:Pricing&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="3f4dcfd9096a04ef7f5c291eeaf080f4a3195b0091048d1e5cb96c77c737afd4">Pricing</a></li>
-      <li class="mr-3 mr-lg-0"><a href="https://docs.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="f592f2bf433476b8d5399d2e8585c999dd1e8cb188f306d4e9505b529b3fa49a">API</a></li>
-      <li class="mr-3 mr-lg-0"><a href="https://services.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to training&quot;,&quot;label&quot;:&quot;text:training&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="eb0baaab3b551c9302e8c8ad54f36b9c6e0b188b4748824afe31098345591228">Training</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/README.md&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="6d165febad56b7c032e11851998a6226353c4d387c5c408c6196ea6ce0d0d8a5">Blog</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://support.github.com?tags=dotcom-footer" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="ef0186f96362aebed69a32fb4af63c5336aa337480aee2f0bb7a995b487daab4">Contact GitHub</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Pricing&quot;,&quot;label&quot;:&quot;text:Pricing&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="9ca4075e9d4eb92caa082460ce63fe0978c060cc8254cc446c4031efcc6f690e">Pricing</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://docs.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="fd87f7077e225c63d5dd9856bc1685df1d75bfff433a5d6c0a327d56a26669a3">API</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://services.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to training&quot;,&quot;label&quot;:&quot;text:training&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="9b5a0b4c8d5ea38250cc2fd8935377e863639d873332313f8186d30cb7501cec">Training</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;,&quot;originating_url&quot;:&quot;https://github.com/iwanmartinsetiawan/verus-auto-armbian/blob/main/miner.sh&quot;,&quot;user_id&quot;:88080714}}" data-hydro-click-hmac="f2517d5db1d6973c7143a038cd7a9c980a1bf43a64b5bb1b560455f2fde91dd2">Blog</a></li>
         <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
     </ul>
   </div>
